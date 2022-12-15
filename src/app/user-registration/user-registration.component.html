@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Job Advertisement</title>
+	<meta charset="utf-8">
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/chartist.min.css" >
+	<link id="bootstrap-style" rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="/assets/css/icons.min.css"  type="text/css">
+	<link id="app-style" rel="stylesheet" href="/assets/css/app.min.css" type="text/css">
+	<link rel="stylesheet" href="/assets/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/sepstyle.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<section class="fxt-template-layout10">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-12 fxt-bg-img" data-bg-image="assets/images/bkg.png" style="background-image: url('assets/images/bkg.png');">
+				<div class="fxt-header">
+					<a href="login-10.html" class="fxt-logo">
+						<img src="assets/images/logo-lightW.png" alt="" height="18">
+					</a>
+					<h1>Welcome To ejoobi</h1>
+					<p>Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada.</p>
+					<a href="" class="fxt-btn-ghost">Login</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-12 fxt-bg-color">
+				<div class="fxt-content">
+					<div class="fxt-form">
+						<h2>Register For Your Ejoobi Account</h2>
+							<div class="form-group">
+								<div class="fxt-transformY-50 fxt-transition-delay-3">
+									<input type="email" [(ngModel)]="this.email" class="form-control"  placeholder="Email Address" required="required">
+								</div>
+							</div>
+                            <div class="form-group">
+								<div class="fxt-transformY-50 fxt-transition-delay-3">
+									<input type="text" class="form-control" [(ngModel)]="this.mobile"  name="text" placeholder="Mobile Number" required="required">
+								</div>
+							</div>
+                            <div class="form-group">
+								<div class="fxt-transformY-50 fxt-transition-delay-3">
+									<input type="text" class="form-control" name="text" [(ngModel)]="this.username" placeholder="Username" required="required">
+								</div>
+							</div>
+                            
+							<div class="form-group">
+								<div class="fxt-transformY-50 fxt-transition-delay-4">
+									<input id="password" type="password" class="form-control" [(ngModel)]="this.password" placeholder="password" required="required">
+									<i toggle="#password" class="fa fa-fw fa-eye toggle-password field-icon" style="cursor:pointer"></i>
+								</div>
+							</div>
+                            <div class="form-group">
+								<div class="fxt-transformY-50 fxt-transition-delay-4">
+									<input id="password" type="password" class="form-control" [(ngModel)]="this.conPassword" placeholder="confirm password" required="required">
+									<i toggle="#password" class="fa fa-fw fa-eye toggle-password field-icon" style="cursor:pointer"></i>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="fxt-transformY-50 fxt-transition-delay-5">
+									<div class="text-center">
+										<button type="submit" (click)="register()"  class="fxt-btn-fill">Log in</button>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+</body>
+</html>

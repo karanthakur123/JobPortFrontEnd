@@ -1,0 +1,504 @@
+body[data-sidebar=dark] .vertical-menu 
+{
+    position: fixed;
+	color: #fff !important;
+    background-color: #3aa3a5;
+}
+
+body[data-sidebar=dark] .navbar-brand-box 
+{
+    background: #ffffff;
+}
+
+span.logo-lg img 
+{
+    width: 100px;
+    height: 38px;
+}
+
+body[data-sidebar=dark] .menu-title 
+{
+    color: #ffffff!important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a 
+{
+    color: #ffffff;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a i 
+{
+    color: #ffffff;
+}
+
+body[data-sidebar=dark] .mm-active .active 
+{
+    color: #000000!important;
+    background-color: #ffffff;
+}
+
+body[data-sidebar=dark] .mm-active .active i 
+{
+    color: #000000!important;
+}
+
+body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu>ul>li:hover>a {
+    background: #f7f7f7;
+    color: #b4c9de;
+}
+
+body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu ul li.mm-active .active i {
+    color: #000000!important;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #f3f3f3;
+    opacity: 1;
+}
+
+.card-body
+{
+	position:relative;
+}
+
+.form-control:focus 
+{
+    color: #495057;
+    background-color: #fff;
+    border-color: #3aa3a5;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-select:focus 
+{
+    border-color: #3aa3a5;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.15rem rgb(98 110 212 / 25%);
+    box-shadow: 0 0 0 0.15rem rgb(98 110 212 / 25%);
+}
+
+.header-item:hover 
+{
+    color: #ffffff;
+}
+
+.badge 
+{
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    width: 18px;
+    height: 18px;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+#page-topbar 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+    background-color: #3aa3a5;
+}
+
+.customCenterMargin
+{
+    margin: 20px auto 0;	
+}
+
+.card-title-desc 
+{
+    color: #6c757d;
+    margin-bottom: 18px;
+}
+
+.customJP_formWrap 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.customJP_formWrap .customFldWrap,
+.customFldWrap.customGoogleDocWrap,
+.customJpFormSmt
+{
+	position: relative;
+    z-index: 1;	
+}
+
+.form-select, .form-control
+{
+	height: 45px;	
+}
+
+.customUploadWrap
+{
+	overflow:hidden;
+	position:relative;
+}
+
+.dz-message.needsclick 
+{
+	padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;	
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+.fallback input
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	opacity: 0;
+}
+
+.dropzone {
+    min-height: unset;
+    border: unset;
+    background: #fff;
+    border-radius: 6px;
+	height: 160px;
+}
+
+.customTA_Wrap textarea
+{
+	height:160px;
+	resize: none;
+}
+
+.page-title-box 
+{
+    padding-bottom: 0;
+}
+
+.customJpFormSmt {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.customJpFormSmt button
+{
+    width: 120px;
+    height: 45px;
+	font-weight:500;
+    background-color: #707070;
+    border: 1px solid #707070;
+}
+
+.customJpFormSmt button:hover
+{
+    width: 120px;
+    height: 45px;
+    font-weight:500;
+	background-color: #898080;
+    border: 1px solid #898080;
+}
+
+.header-profile-user {
+    height: 40px;
+    width: 40px;
+    background-color: #dee2e6;
+    border: 2px solid #fff;
+}
+
+.noti-icon i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.header-item {
+    height: 70px;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+}
+
+.form-check-input:checked {
+    background-color: #3aa3a5;
+    border-color: #3aa3a5;
+}
+
+.customJobBoardWrap
+{
+    padding: 10px;
+    border-radius: 4px;
+	border: 1px dashed #c2c2c2;
+    margin-bottom: 20px !important;	
+	position: relative;
+    z-index: 1;		
+}
+
+.cMt30 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaedf1;
+}
+
+.card-title 
+{
+    font-size: 16px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;	
+}
+
+.jobBoardTitle
+{
+	margin-bottom:10px !important;
+}
+
+.pagedetail_header
+{
+    display: flex;
+    justify-content: space-between;	
+}
+
+.customProfSave i
+{
+    color: #3aa3a5;
+	font-size: 20px;
+}
+
+.profileFormRightImgWrap {
+    display: grid;
+    grid-template-columns: 62% 38%;
+}
+
+.profileFormRightImgWrap:before {
+    content: '';
+    background-image: url(../images/new/pat3.webp);
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.profileDetails_scd_wrap .profileFormWrap .sGrid 
+{
+    margin-bottom: 0px;
+}
+
+.profileFormWrap .sGrid
+{
+    display: grid;
+    grid-template-columns: 25% 55%;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.profileDetails_scd_wrap .profileFormWrap .sGrid label 
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.profileFormWrap .sGrid label 
+{
+    font-weight: 500;
+    color: #202020;
+}
+
+.profileDetails_scd_wrap .profileFormWrap .sGrid .profIconSpan 
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.profIconSpan i 
+{
+    margin-right: 5px;
+}
+
+.profileDtlImgWrap 
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profileDtlImgWrap img 
+{
+    width: 60%;
+}
+
+.customUploadWrap
+{
+	margin-top:20px;
+}
+
+.customGoogleDocWrap
+{
+	margin-top:20px;
+}
+
+.profile_ct_Wrap
+{
+	display:flex;
+	grid-column-gap:7px;
+}
+
+.profile_ct_Wrap span 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;	
+}
+
+.profilePhotoWrap
+{
+	margin-top:20px;
+}
+
+.customJP_formWrap:before 
+{
+    content: '';
+    background-image: url(../images/new/pat3.webp);
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.changePwdRight
+{
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
+	position: relative;
+    z-index: 1;	
+}
+
+.changePwdleft img 
+{
+    width: 300px;
+}
+
+.allJC_wrapper 
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.customJobCard 
+{
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 13px 0 rgb(236 236 241 / 44%);
+}
+
+.customJobCard .tGrid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.cardDetail 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.customJobCard .oGrid
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+	margin-top: 20px;
+}
+
+.bnrSpanWrap
+{
+	height: 120px;
+    overflow: hidden;
+	border-radius: 4px;
+}
+
+.bnrSpanWrap img
+{
+	width: 100%;
+    object-fit: contain;	
+}
+
+.saveJobBoardWrap 
+{
+    margin-top: 20px;
+}
+
+.svJP_BtnWrap
+{
+    width: 100%;	
+}
+
+.svJP_BtnWrap button
+{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    background-color: #3aa3a5;
+    border-color: #3aa3a5;
+}
+
+.customCenterMargin .card-title
+{
+	margin-bottom:20px;
+}
+
+.customJpFormSmt  .mainJobPost
+{
+	color:#fff;
+	border: 1px solid #3aa3a5;
+	background-color:#3aa3a5;
+	margin-left:20px;
+}
+
+.customJpFormSmt  .mainJobPost:hover
+{
+	color:#fff;
+	border: 1px solid #61c1c3;
+	background-color:#61c1c3;
+	margin-left:20px;
+}
+
+.svJP_BtnWrap button:hover
+{
+	color:#fff;
+	border: 1px solid #61c1c3;
+	background-color:#61c1c3;	
+}
