@@ -18,7 +18,11 @@ export class UserDashBboardComponent {
   constructor(private userService:UserServiceService,private router: Router){
 
   }
+  open = false;
 
+  close() {
+    this.open = false;
+  }
 jobPost()
 {
  
@@ -56,14 +60,15 @@ jobPost()
             console.log("jobsaved");
           },
           err => {
-            alert("Job Not Post Successfully")
+            alert(err)
+            console.log(err)
             localStorage.setItem("login","false")
           }
       );
         alert("Job Post Successfully")
       },
       err => {
-        alert("Job Not Post Successfully")
+        alert(err)
         localStorage.setItem("login","false")
       }
   );
@@ -88,6 +93,11 @@ jobPost()
   
 }
 
-
+logout()
+{
+  console.log("coming")
+  localStorage.removeItem("login");
+  this.router.navigate([""]);
+}
 
 }

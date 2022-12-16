@@ -90,11 +90,14 @@
 			</div>
 
 			<div class="dropdown d-inline-block">
-				<button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+				<button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" (click)="logout()"
 					data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<img class="rounded-circle header-profile-user" src="assets/images/user-4.jpg"
-						alt="Header Avatar">
-				</button>
+					<img class="rounded-circle header-profile-user" src="assets/images/download.jpeg" alt="Header Avatar">
+				</button>				
+				
+
+				
+				
 				<div class="dropdown-menu dropdown-menu-end">
 					<a class="dropdown-item" href="profile.php"><i class="mdi mdi-account-circle font-size-17 align-middle me-1"></i> Profile</a>
 					<a class="dropdown-item d-flex align-items-center" href="change_password.php"><i class="mdi mdi-key-variant font-size-17 align-middle me-1"></i> Change Password</a>

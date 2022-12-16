@@ -39,7 +39,7 @@ export class UserServiceService {
     }
     console.log(headers)
     return this.http.post(this.url+"/jobPost",data,
-    {headers,responseType: 'json'});
+    {headers,responseType: 'text'});
   }
   postFacebook(data:any)
   {
